@@ -1,0 +1,54 @@
+.main-navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: normal;
+    margin-left: 16px;
+    align-content: space-between;
+    color: rgb(105, 128, 128);
+
+}
+
+.main-navigation ul li {
+    padding-right: 20px;
+    border: 2px solid black;
+    border-radius: 4PX;
+    margin: 2px;
+
+
+}
+
+.post,
+.page {
+    margin: 0 0 1.5em;
+    padding: 120px;
+}
+
+.site-branding {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 3px;
+    align-items: center;
+
+}
+
+.site-title a {
+    margin-left: 8px;
+    text-decoration: none;
+    color: rgb(105, 128, 128);
+
+}
+
+.site-footer {
+    background-color: rgb(151, 165, 165);
+    height: 40px;
+    border-radius: 4px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-top: 70px;
+    text-align: center;
+}

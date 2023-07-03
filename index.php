@@ -49,9 +49,12 @@ get_header();
 
 		endif;
 		?>
+		<!DOCTYPE html>
+<html>
 
 	</main><!-- #main -->
 
 <?php
 get_sidebar();
 get_footer();
+

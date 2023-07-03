@@ -149,6 +149,17 @@ function stagiaire_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'stagiaire_scripts' );
 
+function carmen () {
+	// Déclarer le fichier CSS à un autre emplacement
+    wp_enqueue_style( 
+        'capitaine', 
+        get_template_directory_uri() . '/css/carmen.css',
+        array(), 
+        '1.0'
+    );
+}
+add_action( 'wp_enqueue_scripts', 'carmen' );
+
 /**
  * Implement the Custom Header feature.
  */
