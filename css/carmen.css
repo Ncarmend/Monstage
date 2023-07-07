@@ -1,33 +1,23 @@
-.main-navigation ul {
+.site {
+    margin: 0 auto;
+    width: 1280px;
+
+
+}
+
+.site-header {
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: normal;
-    margin-left: 16px;
-    align-content: space-between;
-    color: rgb(105, 128, 128);
-
-}
-
-.main-navigation ul li {
-    padding-right: 20px;
-    border: 2px solid black;
-    border-radius: 4PX;
-    margin: 2px;
-
-
-}
-
-.post,
-.page {
-    margin: 0 0 1.5em;
-    padding: 120px;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .site-branding {
     display: flex;
     flex-direction: row;
     justify-content: left;
+
     margin-left: 3px;
     align-items: center;
 
@@ -37,18 +27,158 @@
     margin-left: 8px;
     text-decoration: none;
     color: rgb(105, 128, 128);
+    align-items: center;
 
+}
+
+.main-navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-left: 16px;
+    align-content: space-between;
+}
+
+.main-navigation ul li {
+    padding-right: 2px;
+    border: 2px solid black;
+    border-radius: 4PX;
+    margin: 2px;
+}
+
+.post,
+.page {
+    margin: 0 0 1.5em;
+    padding: 120px;
 }
 
 .site-footer {
     background-color: rgb(151, 165, 165);
-    height: 40px;
+    height: 240px;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.site-footer .site-info {
+    display: flex;
+    flex-direction: column;
+}*/
+
+footer#colophon .site-info {
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    display: inline-flex;
+
+}
+
+.footer-diva {
+
+    width: 30%;
+}
+
+.footer-divb {
+
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 16px;
+
+    width: 68%;
+}
+
+.tests {
+    margin: -40px 360px 20px 360px;
+
+    background-color: rgba(127, 130, 133, 0.313);
+    border-radius: 4px;
+}
+
+.tests a {
+    text-decoration: none;
 }
 
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    margin-top: 70px;
+
     text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.wp-block-post-featured-image {
+    height: 10px;
+}
+
+.figure.wp-block-image.size-full.is-resized {
+    width: 100%;
+}
+
+.carmen-banier {
+    height: 400px;
+}
+
+.wp-block-columns.carmen-gap.is-layout-flex.wp-container-4 {
+    width: 1032px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.wp-block-group__inner-container {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(212, 206, 206);
+    height: 50px;
+    align-items: baseline;
+    text-align: center;
+
+}
+
+.wp-block-columns.is-layout-flex.wp-container-21 {
+    align-items: center;
+    text-align: center;
+}
+
+.wp-block-columns.is-layout-flex.wp-container-26 {
+    width: 1032px;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+.wp-block-group.is-layout-constrained {
+    display: block;
+    flex-direction: row;
+    align-items: left;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    margin-left: 140px;
+
+}
+
+.wp-block-column.is-layout-flow {
+    align-self: center;
+    font-style: italic;
+
+}
+
+.footer-divb .main-navigation .carmen-nav {
+    display: flex;
+    flex-direction: column;
 }
